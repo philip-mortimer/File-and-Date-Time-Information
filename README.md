@@ -1,6 +1,6 @@
-# C++ Example Programs
+# C++ File Information and Date/Time Example Programs
 
-|Sub-folder 	  |Description                                                          |
+|Sub-folder 	    |Description                                                          |
 |-----------------|---------------------------------------------------------------------|
 |CurrDateTime     |Outputs the current date and time.                                   |
 |PrintFileInfo 	  |Outputs information (e.g last modified time) about one or more files.|
