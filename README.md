@@ -1,4 +1,4 @@
-# C++ File Information and Date/Time Example Programs
+# C++ File and Date/Time Information Example Programs
 
 |Sub-folder 	    |Description                                                          |
 |-----------------|---------------------------------------------------------------------|
