@@ -8,7 +8,7 @@ This program compares the last modified dates of two files.
 Use the **Makefile** in the **../build** folder. See the README file in the
 **../build** folder for more information.
 
-The source files for the program are in the folder **..\src**.
+The source files for the program are in the folder **../src**.
         
 
 ## How to run the program
