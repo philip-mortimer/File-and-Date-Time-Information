@@ -1,15 +1,11 @@
-# CurrentDateTime program
+# CurrDateTime program
 
 This program outputs the current date and time.
 
 ## How to build the program
 
-To build the program use the **Makefile** in the same folder as this document. If you run the make command with no arguments it will create an executable file called **CurrentDateTime.exe**.
+To create the executable **CurrDateTime** (**CurrDateTime.exe** on Windows)
+use the **Makefile** in the **../build** folder. See the README file in the
+**../build** folder for more information.
 
-Note that you will need to change the value of CXX at the top of **Makefile** if you are using a C++ compiler other than g++.
-
-The source files for the program are to be found in the same folder as this document, and in the following folder:
-
-
-            ..\shared\DateTime
-        
+The source files for the program are in the folder **../src**.
