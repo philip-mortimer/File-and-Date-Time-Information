@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
 
     // function for printing the output.
     PrintFn pr;
-    if (_stricmp(argv[1], CSV_FLAG) == 0) {
+    if (strcasecmp(argv[1], CSV_FLAG) == 0) {
         argc--;
         argv++;
         if(argc < 2) {

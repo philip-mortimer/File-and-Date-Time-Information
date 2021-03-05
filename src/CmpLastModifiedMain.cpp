@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
 
     // Check whether 1st argument is verbose argument.
     bool verbose = false;
-    if (_stricmp(argv[1], VERBOSE_FLAG) == 0) {
+    if (strcasecmp(argv[1], VERBOSE_FLAG) == 0) {
         verbose = true;
         argc--;
         argv++;
