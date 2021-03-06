@@ -43,7 +43,7 @@ namespace FileInfoLib {
 
         time_t getLastModifiedTime() const {return lastModifiedTime;}
 
-        off_t getSizeInBytes() const {return sizeInBytes;}
+        unsigned long getSizeInBytes() const {return sizeInBytes;}
 
         // If following method returns true then results of above methods
         // are not defined.
@@ -55,7 +55,7 @@ namespace FileInfoLib {
         FileType fileType;
 
         time_t lastModifiedTime;
-        off_t sizeInBytes;
+        unsigned long sizeInBytes;
 
         bool errorDetected;
         std::string errorMessage;

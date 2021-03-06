@@ -53,7 +53,7 @@ namespace FileInfoLib {
             exists = true;
 
             lastModifiedTime = info.st_mtime;
-            sizeInBytes = info.st_size;
+            sizeInBytes = (unsigned long)info.st_size;
 
             if (S_ISREG(info.st_mode) != 0) {
                 fileType = FileType::RegularFile;
@@ -98,7 +98,7 @@ namespace FileInfoLib {
             << "\",";
 
         if (fileInfo.getFileType() == FileType::RegularFile) {
-            dest << fileInfo.getSizeInBytes();
+            dest << (unsigned long)fileInfo.getSizeInBytes();
         }
 
         dest << "," << std::flush;

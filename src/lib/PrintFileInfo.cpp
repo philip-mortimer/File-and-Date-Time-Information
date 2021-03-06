@@ -29,7 +29,7 @@ using DateTime::createDateTimeString;
 
 namespace FileInfoLib {
 
-    std::string createCommaNumStr(size_t n)
+    std::string createCommaNumStr(unsigned long n)
     // Return a string representation of n with 3 digit sequences
     // separated by commas e.g. "1,978,802".
     {
@@ -39,10 +39,10 @@ namespace FileInfoLib {
         std::string num_str = "";
         char buf[2];
 
-        size_t num = n;
+        unsigned long num = n;
         int digit_count = 0;
         while (num > 0) {
-            snprintf(buf, sizeof(buf), "%0d", num % 10);
+            snprintf(buf, sizeof(buf), "%0u", (unsigned int)(num % 10));
             num_str.push_back(buf[0]);
             num /= 10;
             digit_count++;
