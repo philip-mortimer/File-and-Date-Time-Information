@@ -1,17 +1,17 @@
 # How to create the program executables
 
-## How to create the **CmpLastModified** program executable
+## Creating the **CmpLastModified** program executable
 
 Enter the following command on the command line:
 
         make CmpLastModified
 
 
-This will create the executable file **CmpLastModified** (**CmpLastModified.exe** 
-on Windows) in the folder **../CmpLastModified**.
+This will create the executable file **CmpLastModified**
+(**CmpLastModified.exe** on Windows) in the folder **../CmpLastModified**.
 
 
-## How to create the **PrintFileInfo** program executable
+## Creating the **PrintFileInfo** program executable
 
 Enter the following command on the command line:
 
@@ -22,7 +22,7 @@ This will create the executable file **PrintFileInfo** (**PrintFileInfo.exe**
 on Windows) in the folder **../PrintFileInfo**.
 
 
-## How to create the **CurrDateTime** program executable
+## Creating the **CurrDateTime** program executable
 
 Enter the following command on the command line:
 
@@ -33,7 +33,7 @@ This will create the executable file **CurrDateTime** (**CurrDateTime.exe**
 on Windows) in the folder **../CurrentDateTime**.
 
 
-## How to create all the program executables
+## Creating all the program executables
 
 To create all the above executables enter the following command on the command
 line:
