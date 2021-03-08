@@ -1,9 +1,8 @@
-# Creating the Program Executables
+# How to create the program executables
 
-To create the executables enter the following commands on the command line.
+## How to create the **CmpLastModified** program executable
 
-
-To create the executable file for the **CmpLastModified** program enter:
+Enter the following command on the command line:
 
         make CmpLastModified
 
@@ -12,7 +11,9 @@ This will create the executable file **CmpLastModified** (**CmpLastModified.exe*
 on Windows) in the folder **../CmpLastModified**.
 
 
-To create the executable file for the **PrintFileInfo** program enter:
+## How to create the **PrintFileInfo** program executable
+
+Enter the following command on the command line:
 
         make PrintFileInfo
 
@@ -21,7 +22,9 @@ This will create the executable file **PrintFileInfo** (**PrintFileInfo.exe**
 on Windows) in the folder **../PrintFileInfo**.
 
 
-To create the executable file for the **CurrDateTime** program enter:
+## How to create the **CurrDateTime** program executable
+
+Enter the following command on the command line:
 
         make CurrDateTime
 
@@ -30,11 +33,14 @@ This will create the executable file **CurrDateTime** (**CurrDateTime.exe**
 on Windows) in the folder **../CurrentDateTime**.
 
 
-To create all the above executables enter:
+## How to create all the program executables
+
+To create all the above executables enter the following command on the command
+line:
 
         make all
     
-    
+   
 Note that the above information assumes that the make command is 'make'.
 The make command might be different on your computer depending on what
 software for developing C++ programs is installed - see the 
